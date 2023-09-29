@@ -12,7 +12,7 @@ class TronManager
      *
      * @var array
     */
-    protected array $defaultNodes = [
+    protected $defaultNodes = [
         'fullNode'      =>  'https://api.trongrid.io',
         'solidityNode'  =>  'https://api.trongrid.io',
         'eventServer'   =>  'https://api.trongrid.io',
@@ -25,7 +25,7 @@ class TronManager
      *
      * @var array
     */
-    protected array $providers = [
+    protected $providers = [
         'fullNode'      =>  [],
         'solidityNode'  =>  [],
         'eventServer'   =>  [],
@@ -38,7 +38,7 @@ class TronManager
      *
      * @var array
     */
-    protected array $statusPage = [
+    protected $statusPage = [
         'fullNode'      =>  'wallet/getnowblock',
         'solidityNode'  =>  'walletsolidity/getnowblock',
         'eventServer'   =>  'healthcheck',

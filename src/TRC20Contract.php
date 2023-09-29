@@ -33,28 +33,28 @@ class TRC20Contract
      *
      * @var integer|null
      */
-    private ?int $_decimals = null;
+    private $_decimals = null;
 
     /***
      * Token Name
      *
      * @var string|null
      */
-    private ?string $_name = null;
+    private $_name = null;
 
     /***
      * Token Symbol
      *
      * @var string|null
      */
-    private ?string $_symbol = null;
+    private $_symbol = null;
 
     /**
      * The smart contract which issued TRC20 Token
      *
      * @var string
     */
-    private string $contractAddress;
+    private $contractAddress;
 
     /**
      * ABI Data
@@ -68,21 +68,21 @@ class TRC20Contract
      *
      * @var integer
      */
-    private int $feeLimit = 10;
+    private $feeLimit = 10;
 
     /**
      * Base Tron object
      *
      * @var Tron
      */
-    protected Tron $_tron;
+    protected $_tron;
 
     /**
      * Total Supply
      *
      * @var string|null
     */
-    private ?string $_totalSupply = null;
+    private $_totalSupply = null;
 
     /**
      * Create Trc20 Contract
